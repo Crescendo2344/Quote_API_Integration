@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@ body {
   background-color: #ffffff;
   padding: 3rem 2rem;
   border-radius: 20px;
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
   max-width: 700px;
   width: 100%;
   text-align: center;
@@ -53,6 +53,16 @@ body {
   font-size: 1rem;
   color: #888;
   font-weight: bold;
+}
+
+#new-quote{
+  margin-top: 10px;
+  border: none;
+  padding: 5px;
+  background:  #2193b0;
+  border-radius: 5px;
+  color: white;
+
 }
 
 
