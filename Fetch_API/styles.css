@@ -1,0 +1,65 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+
+.quotes-section {
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.quotes-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+#quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+#quote::before, #quote::after {
+  content: '"';
+  font-size: 2rem;
+  color: #aaa;
+  vertical-align: top;
+}
+
+#author {
+  font-size: 1rem;
+  color: #888;
+  font-weight: bold;
+}
+
+
+.quotes-section h2::before {
+  content: "\f10e";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-right: 0.5rem;
+  color: #888;
+}
